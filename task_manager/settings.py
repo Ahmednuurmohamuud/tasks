@@ -12,7 +12,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'your-default-secret-key')
 
 DEBUG = False  # Xir Debug mode
 
-ALLOWED_HOSTS = ['*'] 
+ALLOWED_HOSTS = ['tasks-5gef.onrender.com', 'www.tasks-5gef.onrender.com']
+
 
 # Application definition
 INSTALLED_APPS = [
