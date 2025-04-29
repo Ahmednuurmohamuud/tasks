@@ -12,7 +12,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'your-default-secret-key')
 
 DEBUG = False  # Xir Debug mode
 
-ALLOWED_HOSTS = ['your-project-name.onrender.com', '127.0.0.1', 'localhost']  # sax URL
+ALLOWED_HOSTS = ['*'] 
 
 # Application definition
 INSTALLED_APPS = [
